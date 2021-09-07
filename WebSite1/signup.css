@@ -1,0 +1,116 @@
+﻿* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body {
+    background-color:whitesmoke;
+}
+.outside-form{
+    /*background-color:red;*/
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+}
+.form-container {
+    /*background-color: blue;*/
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.inside-form {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow:  -6px -6px 15px rgba(10,15,25,0.2), 6px 6px 3px rgba(0,0,0,0.4);
+    width: 85%;
+    height: 80%;
+    display: flex;
+    justify-content:center;
+}
+    .inside-form .title td {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .inside-form #txtbxusername1 {
+        border: none;
+        outline:none;
+        background-color: none;
+        border-radius:10px;
+        padding:15px 10px;
+        box-shadow: inset -4px 4px 2px rgba(10,15,25,0.2),inset -4px 4px 3px rgba(0,0,0,0.4);
+    }
+    .inside-form #txtbxemail1 {
+        border: none;
+        outline: none;
+        background-color: none;
+        border-radius: 10px;
+        padding: 15px 10px;
+        box-shadow: inset -4px 4px 2px rgba(10,15,25,0.2),inset -4px 4px 3px rgba(0,0,0,0.4);
+    }
+    .inside-form #txtbxemail1 {
+        border: none;
+        outline: none;
+        background-color: none;
+        border-radius: 10px;
+        padding: 15px 10px;
+        box-shadow: inset -4px 4px 2px rgba(10,15,25,0.2),inset -4px 4px 3px rgba(0,0,0,0.4);
+    }
+    .inside-form #txtbxpwd1 {
+        border: none;
+        outline: none;
+        background-color: none;
+        border-radius: 10px;
+        padding: 15px 10px;
+        box-shadow: inset -4px 4px 10px rgba(10,15,25,0.2),inset -4px 4px 3px rgba(0,0,0,0.4);
+    }
+    .inside-form #txtbxconfirmpwd {
+        border: none;
+        outline: none;
+        background-color: none;
+        border-radius: 10px;
+        padding: 15px 10px;
+        box-shadow: inset -4px 4px 2px rgba(10,15,25,0.2),inset -4px 4px 3px rgba(0,0,0,0.4);
+    }
+    .inside-form #btsignup {
+        border: none;
+        outline: none;
+        background-color: none;
+        border-radius: 10px;
+        box-shadow: -4px -4px 15px rgba(10,15,25,0.2), 4px 4px 3px rgba(0,0,0,0.4);
+        text-align: center;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .inside-form #btsignup:hover{
+        background-color:rgba(0,0,0,0.2);
+    }
+        .inside-form #btsignup:active {
+            box-shadow: inset -4px 4px 2px rgba(10,15,25,0.2),inset -4px 4px 3px rgba(0,0,0,0.4);
+        }
+    .inside-form #btsignin {
+        border: none;
+        outline: none;
+        background-color: none;
+        border-radius: 10px;
+        box-shadow: -4px -4px 15px rgba(10,15,25,0.2), 4px 4px 3px rgba(0,0,0,0.4);
+        text-align: center;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .inside-form #btsignin:hover {
+        background-color: rgba(0,0,0,0.3);
+    }
+    .inside-form #btsignin:active {
+        box-shadow: inset -4px 4px 2px rgba(10,15,25,0.2),inset -4px 4px 3px rgba(0,0,0,0.4);
+    }
+    .inside-form .signup-button-row td{
+        text-align:center;
+    }
+    .inside-form .bottom td {
+        text-align: center;
+    }
